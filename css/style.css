@@ -199,7 +199,7 @@ header .wrap nav .inner .gnb li a{
 }
 
 .section1 .wrap .text h1{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: lighter;
     padding-right: 10px;
 }
@@ -961,10 +961,10 @@ footer .wrap .caution p{
     font-size: 13px;
 }
 
-.section2 .wrap h1, .section1 .wrap .text h1{
-    font-size: 30px;
+.section1 .wrap .text h1{
+    font-size: 22px;
 }
 
 .section1 .wrap .text p{
-    font-size: 20px;
+    font-size: 12px;
 }

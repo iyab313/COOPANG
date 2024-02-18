@@ -237,8 +237,12 @@
         font-size: 18px;
     }
 
-    .section6 .wrap .text h1, .section5 .wrap .text h1, .section4 .wrap .text h1, .section3 .wrap .text h1, .section2 .wrap .text h1{
+    .section1 .wrap .text h1, .section2 .wrap h1, .section6 .wrap .text h1, .section5 .wrap .text h1, .section4 .wrap .text h1, .section3 .wrap .text h1, .section2 .wrap .text h1{
         font-size: 30px;
+    }
+
+    .section1 .wrap .text p{
+        font-size: 16px;
     }
     
 
