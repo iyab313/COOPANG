@@ -244,7 +244,10 @@
     .section1 .wrap .text p{
         font-size: 16px;
     }
-    
+
+    .section3 .wrap .text .more, .section4 .wrap .text .more, .section5 .wrap .text .more, .section6 .wrap .text .more{
+        font-size: 25px;
+    }
 
    
     
