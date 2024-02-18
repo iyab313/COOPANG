@@ -23,7 +23,6 @@ button, input, select, option, textarea{border: 0; background-color: transparent
 }
 
 .wrapper{
-    min-width: 360px;
 }
 
 header{
@@ -122,6 +121,7 @@ header .wrap nav .inner .link li{
     height: 80px;
     padding-right: 10px;
     padding-left: 40px;
+    white-space: nowrap;
 }
 
 header .wrap nav .inner .link li a{
@@ -130,7 +130,7 @@ header .wrap nav .inner .link li a{
     color: white;
     text-align: center;
     font-size: 16px;
-    padding: 15px 10px;
+    padding: 15px 0px;
     border-radius: 30px;
     background-color: #000;
     
@@ -195,18 +195,20 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
+    white-space: nowrap;
 }
 
 .section1 .wrap .text h1{
-    font-size: 30px;
+    font-size: 22px;
     font-weight: lighter;
     padding-right: 10px;
 }
 
 .section1 .wrap .text p{
     font-weight: 100;
-    font-size: 16px;
+    font-size: 12px;
     padding-top: 10px;
+
 }
 
 .section1 .wrap .context .mySwiper2{
@@ -257,7 +259,7 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .section2 .wrap .context .category .swiper-slide{
@@ -289,6 +291,7 @@ header .wrap nav .inner .gnb li a{
     height: 100%;
     padding-top: 40px;
     background-color: #f8f6f7;
+    position: relative;
 }
 
 .section3 .wrap{
@@ -306,14 +309,19 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 22px;
+    white-space: nowrap;
 }
 
 .section3 .wrap .text .more{
     margin-left: auto;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     padding: 35px; 
+    white-space: nowrap;
+    position: absolute;
+    right: -10px;
+    top: -10px
 }
 
 .section3 .wrap .text .more::after{
@@ -355,7 +363,7 @@ header .wrap nav .inner .gnb li a{
     position: absolute;
     top: 10px;
     left: 30px;
-    font-size: 140%;
+    font-size: 100%;
 }
 
 .section3 .wrap .context .Sale .swiper-slide .top .content img{
@@ -387,7 +395,6 @@ header .wrap nav .inner .gnb li a{
 
 .section3 .wrap .context .Sale .swiper-slide .bottom p{
     padding-top: 5px;
-    font-size: 22px;
 }
 
 .wrap .context .Sale .swiper-slide .bottom .skyblue{
@@ -431,6 +438,7 @@ header .wrap nav .inner .gnb li a{
     height: 100%;
     padding-top: 40px;
     background-color: white;
+    position: relative;
 }
 
 .section4 .wrap{
@@ -448,16 +456,18 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 30px;
-    white-space: nowrap;
+    font-size: 22px;
 }
 
 .section4 .wrap .text .more{
     margin-left: auto;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     padding: 35px; 
     white-space: nowrap;
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }
 
 .section4 .wrap .text .more::after{
@@ -498,7 +508,7 @@ header .wrap nav .inner .gnb li a{
     position: absolute;
     top: 0px;
     left: 10px;
-    font-size: 140%;
+    font-size: 100%;
 }
 
 .section4 .wrap .context .Sale .swiper-slide .top .content img{
@@ -530,19 +540,19 @@ header .wrap nav .inner .gnb li a{
 
 .section4 .wrap .context .Sale .swiper-slide .bottom p{
     padding-top: 5px;
-    font-size: 22px;
+
 }
 
 .section4 .wrap .context .Sale .swiper-slide .bottom .second{
     display: flex;
-    width: calc(100% - (20px*3));
+    width: calc(100% - (20px*1));
     justify-content: space-between;
     white-space: nowrap;
 }
 
 .section4 .wrap .context .Sale .swiper-slide .bottom .third{
     display: flex;
-    width: calc(100% - (20px*3));
+    width: calc(100% - (20px*1));
     justify-content: space-between;
     white-space: nowrap;
 }
@@ -565,6 +575,7 @@ header .wrap nav .inner .gnb li a{
     height: 100%;
     padding-top: 40px;
     background-color: #f8f6f7;
+    position: relative;
 }
 
 .section5 .wrap{
@@ -582,14 +593,17 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .section5 .wrap .text .more{
     margin-left: auto;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     padding: 35px; 
+    position: absolute;
+    right: -10px;
+    top: -10px
 }
 
 .section5 .wrap .text .more::after{
@@ -630,7 +644,7 @@ header .wrap nav .inner .gnb li a{
     position: absolute;
     top: 0px;
     left: 10px;
-    font-size: 140%;
+    font-size: 100%;
 }
 
 .section5 .wrap .context .Sale .swiper-slide .top .content img{
@@ -662,26 +676,25 @@ header .wrap nav .inner .gnb li a{
 
 .section5 .wrap .context .Sale .swiper-slide .bottom p{
     padding-top: 5px;
-    font-size: 22px;
 }
 
 .section5 .wrap .context .Sale .swiper-slide .bottom .second{
     display: flex;
-    width: calc(100% - (20px*3));
+    width: calc(100% - (20px*1));
     justify-content: space-between;
     white-space: nowrap;
 }
 
 .section5 .wrap .context .Sale .swiper-slide .bottom .third{
     display: flex;
-    width: calc(100% - (20px*3));
+    width: calc(100% - (20px*1));
     justify-content: space-between;
     white-space: nowrap;
 }
 
 
 .section5 .wrap .context .Sale .swiper-slide .bottom .star-container{
-    font-size: 10px;
+    font-size: 2px;
     padding-top: 5px;
 }
 
@@ -694,6 +707,7 @@ header .wrap nav .inner .gnb li a{
     padding-top: 40px;
     background-color: white;
     padding-bottom: 40px;
+    position: relative;
 }
 
 .section6 .wrap{
@@ -711,14 +725,17 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .section6 .wrap .text .more{
     margin-left: auto;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     padding: 35px; 
+    position: absolute;
+    right: -10px;
+    top: -10px
 }
 
 .section6 .wrap .text .more::after{
@@ -759,7 +776,7 @@ header .wrap nav .inner .gnb li a{
     position: absolute;
     top: 0px;
     left: 10px;
-    font-size: 140%;
+    font-size: 100%;
 }
 
 .section6 .wrap .context .Sale .swiper-slide .top .content img{
@@ -771,7 +788,7 @@ header .wrap nav .inner .gnb li a{
 .section6 .wrap .context .Sale .swiper-slide .bottom{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -791,26 +808,24 @@ header .wrap nav .inner .gnb li a{
 
 .section6 .wrap .context .Sale .swiper-slide .bottom p{
     padding-top: 5px;
-    font-size: 22px;
 }
 
 .section6 .wrap .context .Sale .swiper-slide .bottom .second{
     display: flex;
-    width: calc(100% - (20px*3));
+    width: calc(100% - (20px*1));
     justify-content: space-between;
     white-space: nowrap;
 }
 
 .section6 .wrap .context .Sale .swiper-slide .bottom .third{
     display: flex;
-    width: calc(100% - (20px*3));
+    width: calc(100% - (20px*1));
     justify-content: space-between;
     white-space: nowrap;
 }
 
 
 .section6 .wrap .context .Sale .swiper-slide .bottom .star-container{
-    font-size: 10px;
     padding-top: 5px;
 }
 
@@ -935,4 +950,21 @@ footer .wrap .caution p{
 
 .swiper-button-prev::after{
     display: none;
+}
+
+.wrap .context .Sale .swiper-slide .bottom .star-container .star{
+    width: 12px;
+    padding-top: 10px;
+}
+
+.wrap .context .Sale .swiper-slide .bottom p {
+    font-size: 13px;
+}
+
+.section2 .wrap h1, .section1 .wrap .text h1{
+    font-size: 30px;
+}
+
+.section1 .wrap .text p{
+    font-size: 20px;
 }

@@ -271,6 +271,7 @@
 
     .section3 .wrap .text .more{
         font-size: 22px;
+        position: relative;
     }
 
     .section3 .wrap .text .more::after{
@@ -309,6 +310,7 @@
 
     .section4 .wrap .text .more{
         font-size: 22px;
+        position: relative;
     }
 
     .section4 .wrap .text .more::after{
@@ -370,6 +372,7 @@
 
     .section5 .wrap .text .more{
         font-size: 22px;
+        position: relative;
     }
 
     .section5 .wrap .text .more::after{
@@ -410,6 +413,7 @@
     
     .section6 .wrap .text .more{
         font-size: 22px;
+        position: relative;
     }
 
     .section6 .wrap .text .more::after{
