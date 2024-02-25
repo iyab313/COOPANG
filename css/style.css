@@ -78,7 +78,7 @@ header .wrap nav{
 
 
 header .wrap nav .inner .top{
-    height: 50px;
+    height: 80px;
     display: flex;
     align-items: center;
 }
@@ -95,7 +95,7 @@ header .wrap nav .inner .nav-cls{
     width: 50px;
     margin-left: auto;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: d0px;
 }
 
 header .wrap nav .inner .nav-cls button{
@@ -111,7 +111,7 @@ header .wrap nav .inner .link{
     background-color: #1e1e1e;
     display: flex;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 header .wrap nav .inner .link li{
@@ -125,7 +125,7 @@ header .wrap nav .inner .link li{
     white-space: nowrap;
     background-color: #000;
     border-radius: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 header .wrap nav .inner .link li a{
@@ -141,7 +141,7 @@ header .wrap nav .inner .link li a{
 header .wrap nav .inner .gnb li a{
     display: block;
     background-color: white;
-    padding: 20px 40px;
+    padding: 30px 40px;
     font-size: 16px;
     font-weight: bold;
 }
@@ -210,6 +210,7 @@ header .wrap nav .inner .gnb li a{
     font-weight: 100;
     font-size: 14px;
     padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
