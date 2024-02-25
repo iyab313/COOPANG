@@ -206,7 +206,7 @@ header .wrap nav .inner .gnb li a{
 
 .section1 .wrap .text p{
     font-weight: 100;
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 10px;
 
 }
@@ -259,7 +259,7 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .section2 .wrap .context .category .swiper-slide{
@@ -282,7 +282,7 @@ header .wrap nav .inner .gnb li a{
 }
 
 .section2 .wrap .context .category .swiper-slide p{
-    font-size: 20px;
+    font-size: 16px;
     padding-top: 10px;
     white-space: nowrap;
 }
@@ -309,7 +309,7 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 22px;
+    font-size: 20px;
     white-space: nowrap;
 }
 
@@ -380,7 +380,7 @@ header .wrap nav .inner .gnb li a{
 
 .section3 .wrap .context .Sale .swiper-slide .bottom h2{
     padding-top: 15px;
-    font-size: 22px;
+    font-size: 16px;
     width: calc(90% - (20px*3));
     text-overflow: ellipsis;
     overflow: hidden;
@@ -455,7 +455,7 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .section4 .wrap .text .more{
@@ -524,7 +524,7 @@ header .wrap nav .inner .gnb li a{
 
 .section4 .wrap .context .Sale .swiper-slide .bottom h2{
     padding-top: 15px;
-    font-size: 22px;
+    font-size: 16px;
     width: calc(100% - (20px*3));
     text-overflow: ellipsis;
     overflow: hidden;
@@ -591,7 +591,7 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .section5 .wrap .text .more{
@@ -659,7 +659,7 @@ header .wrap nav .inner .gnb li a{
 
 .section5 .wrap .context .Sale .swiper-slide .bottom h2{
     padding-top: 15px;
-    font-size: 22px;
+    font-size: 16px;
     width: calc(100% - (20px*3));
     text-overflow: ellipsis;
     overflow: hidden;
@@ -722,7 +722,7 @@ header .wrap nav .inner .gnb li a{
     height: 100px;
     align-items: center;
     padding-left: 30px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .section6 .wrap .text .more{
@@ -790,7 +790,7 @@ header .wrap nav .inner .gnb li a{
 
 .section6 .wrap .context .Sale .swiper-slide .bottom h2{
     padding-top: 15px;
-    font-size: 22px;
+    font-size: 16px;
     width: calc(100% - (20px*3));
     text-overflow: ellipsis;
     overflow: hidden;
@@ -857,7 +857,7 @@ footer .wrap .gnb .overseas select{
     width: 35%;
     height: 40px;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 footer .wrap .gnb .overseas select option{
@@ -869,7 +869,7 @@ footer .wrap .gnb .link{
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    font-size: 20px;
+    font-size: 16px;
     flex-wrap: wrap;
     font-weight: lighter;
     gap: 40px;
@@ -892,7 +892,7 @@ footer .wrap .information .company p{
 
 footer .wrap .information .company .Business_info{
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 footer .wrap .information .customer{
@@ -954,11 +954,11 @@ footer .wrap .caution p{
 }
 
 .wrap .context .Sale .swiper-slide .bottom p {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .section1 .wrap .text h1{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .section1 .wrap .text p{
