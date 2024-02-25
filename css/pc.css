@@ -115,12 +115,13 @@
     header .wrap nav .inner .link{
         display: none;
         position: absolute; /*new*/
-        top: -56px; /*new*/
+        top: -45px; /*new*/
         right: 10px;
         background-color: unset; /*new*/
         align-items: center;
         height: unset; /*new*/
         display: flex; /*new*/
+        padding-bottom: 0px;
     }
     
     header .wrap nav .inner .link li{
@@ -128,7 +129,9 @@
         display: flex;
         width: 100%; /*new*/
         padding-left: 20px;
-        
+        background-color: transparent;
+        padding-bottom: 0px;
+        margin: 0px;
     }
     
     header .wrap nav .inner .link li a{
@@ -141,6 +144,7 @@
         padding: 10px 0;
         white-space: nowrap; /*new*/
         background-color: unset;
+        padding-bottom: 0px;
     }
     
     header .wrap nav .inner .gnb{

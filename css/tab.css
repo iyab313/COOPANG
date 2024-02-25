@@ -8,6 +8,7 @@
         padding-bottom: 50px;
     }
 
+
     .section2{
         padding-top: 20px;
         padding-bottom: 30px;
@@ -17,6 +18,7 @@
 
     .section2 .wrap .context .category .swiper-wrapper p{
         padding-top: 20px;
+        font-size: 18px;
     }
     .section3{
         padding: 0 20px;
@@ -29,7 +31,7 @@
     }
 
     .section3 .wrap .context .Proposal .swiper-slide .bottom h2{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .section3 .wrap .context .Sale .swiper-slide .top .content{
@@ -48,7 +50,7 @@
     }
 
     .section4 .wrap .context .Sale .swiper-slide .bottom h2, .section5 .wrap .context .Sale .swiper-slide .bottom h2, .section6 .wrap .context .Sale .swiper-slide .bottom h2{
-        font-size: 20px;
+        font-size: 18px;
         width: 100%;
     }
 
@@ -76,7 +78,7 @@
     }
 
     .section5 .wrap .context .Sale .swiper-slide .bottom h2{
-        font-size: 20px;
+        font-size: 18px;
         width: unset;
     }
 
@@ -96,7 +98,7 @@
     }
 
     .section6 .wrap .context .Sale .swiper-slide .bottom h2{
-        font-size: 20px;
+        font-size: 18px;
         width: unset;
     }
 
@@ -148,7 +150,7 @@
         display: flex;
         justify-content: center;
         padding-top: 30px;
-        font-size: 20px;
+        font-size: 18px;
         flex-wrap: wrap;
         font-weight: lighter;
         gap: 40px;
@@ -212,7 +214,7 @@
     
     footer .wrap .information .bank .check{
         padding-top: 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
     
     footer .wrap .caution{
@@ -242,11 +244,11 @@
     }
 
     .section1 .wrap .text p{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .section3 .wrap .text .more, .section4 .wrap .text .more, .section5 .wrap .text .more, .section6 .wrap .text .more{
-        font-size: 25px;
+        font-size: 20px;
     }
 
    
